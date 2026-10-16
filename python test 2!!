@@ -1,0 +1,41 @@
+#Function Calculator
+operation=str(input("which peration do you want to do(add, subtract, multiply, divide):"))
+if opertation ==add:
+  print("sure")
+  num1=int(input("pls enter the num1:"))
+  num2=int(input("pls enter the num2":))
+  def add(num1,num2):
+    return num1+num2
+   print("answer",return)
+else:
+   operation==suntraction:
+  print("sure")
+  num1=int(input("pls enter the num1:"))
+  num2=int(input("pls enter the num2":))
+  def subtract(num1,num2):
+    return num1-num2
+   print("answer",return)
+elif  operation==multiply:
+   print("sure")
+    num1=int(input("pls enter the num1:"))
+    num2=int(input("pls enter the num2":))
+    def add(num1,num2):
+       return num1*num2
+   print("answer",return)
+elif operation==divide:
+     print("sure")
+  num1=int(input("pls enter the num1:"))
+  num2=int(input("pls enter the num2":))
+  def add(num1,num2):
+   return num1/num2
+   print("answer",return)
+try :
+  int(input("enter numbers for the operation pls!":))
+except ZeroDivision:
+  print("pls enter the coreect value in integer it should be regardless of zero")
+
+if number==str:
+  print("pls enter the value in int")
+else:
+  print("here is your answer")
+
